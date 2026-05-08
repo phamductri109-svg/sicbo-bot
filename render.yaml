@@ -1,0 +1,3 @@
+services: - type: web name: sicbo-bot env: python 
+    buildCommand: pip install -r requirements.txt
+    startCommand: python sicbo.py
